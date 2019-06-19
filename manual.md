@@ -1,20 +1,21 @@
-# Manual for MOOPLab
+# MoopLab用户手册
 
 ## 1. MOOP & MOOPLab
+
 > Massive Online Open Program - MOOP，大规模在线开放编程
 > MoopLab - 数据科学开放实验室
 
 ### 1.0 Jupyter与MOOPLab
 
 ![jupyter](https://jupyter.org/assets/nav_logo.svg)
-[Jupyter项目](jupyter.org)是一个非盈利的开源项目，继承了2014年的[IPython开源项目](https://ipython.org)，其目标是提供交互式的多语言数据科学和科学计算环境。Jupyter是100%完全开源免费的，使用者需要根据[修改后的BSD许可证的自由条款](https://opensource.org/licenses/BSD-3-Clause)而进行使用。
+> [Jupyter项目](jupyter.org)是一个非盈利的开源项目，继承了2014年的[IPython开源项目](https://ipython.org)，其目标是提供交互式的多语言数据科学和科学计算环境。Jupyter是100%完全开源免费的，使用者需要根据[修改后的BSD许可证的自由条款](https://opensource.org/licenses/BSD-3-Clause)而进行使用。
 
 如果每个数据科学家都应该使用或必须使用一种工具，毫无疑问，它就是Jupyter Notebook（曾用名iPython Notebook）。Jupyter Notebook是一个交互式笔记本，它功能强大，支持40多种编程语言，可共享，并提供在同一环境中构建可视化应用的服务。
 
 数据科学家可以在上面创建和共享自己的文档，从实现代码到全面报告，Jupyter Notebook大大简化了开发者的工作流程，帮助他们实现更高的生产力和更简单的多人协作。也正是因为如此，它一直以来都是数据科学家们最喜欢的工具之一。
 
-
 MOOPLab是由[Jupyter China](jupyterchina.org)
+
 ### 1.1 MOOP的竞争力
 
 ​    现在网络上有很多各种各样的平台，他们各有各自的面向对象。
@@ -271,7 +272,7 @@ MOOPLab是由[Jupyter China](jupyterchina.org)
 
 ​    在终端执行`jupyter nbextension enable toc2/main`可以激活toc2插件，或者可以在主目录的图形环境下手动勾选要激活什么环境。注意激活的时候格式是`extension/main`。
 
-![](extension.png)
+![](./images/extension.png)
 
 ​    下面介绍几个比较常用的插件。
 
@@ -281,7 +282,7 @@ MOOPLab是由[Jupyter China](jupyterchina.org)
 
     ​    这个TOC插件就可以解决这个问题，他可以搜集notebook中markdown的部分，并且为#标记的各级标题生成目录结构。这个目录支持随时跳转，可以固定在边上，也可以移动成为悬浮框。
 
-    ![toc](toc.png)
+    ![toc](./images/toc.png)
 
 2.  Collapsible headings
 
@@ -295,7 +296,7 @@ MOOPLab是由[Jupyter China](jupyterchina.org)
 
     ​    用IDE的同学会用到一个功能叫做调试，目的就是一步一步执行代码，并观察变量值的变化。而Jupyter本身就自带了分步执行的特性，观察变量也只需要写变量名再执行即可。但是这还可以更方便，使用这个Variable Inspector插件，可以产生一个悬浮窗，里面包含了所有的变量的基本属性，可以到处移动和最小化，非常方便。
 
-    ![](inspector.png)
+    ![](./images/inspector.png)
 
 5.  ExecuteTime
 
@@ -309,11 +310,11 @@ MOOPLab是由[Jupyter China](jupyterchina.org)
 
     ​    通常我们会觉得代码编辑区越大越好，然而Jupyter的“刘海”直接占据了大量的屏幕空间，zenmode即禅模式，可以在Nbextensions下进行配置，隐藏header和菜单栏，甚至是自定义隐藏内容。
 
-    ![](zen.png)
+    ![](./images/zen.png)
 
     ​    打开禅模式后，就会像下图一样，隐藏三行，剩下一行，并且透明度会变高。因为header只有显示名字和重命名的功能，而菜单栏我们使用频率也很低，只要掌握了常用的快捷键，使用zenmode将会提高使用Jupyter的使用感，让我们更加专注于代码本身。值得注意的是，这个插件的启动和终止是在最左边的，其他的插件一般都是在右边。
 
-    ![](zen2.png)
+    ![](./images/zen2.png)
 
 8.  Hinterland
 
@@ -412,7 +413,6 @@ MOOPLab是由[Jupyter China](jupyterchina.org)
     1.  需求描述：文字在某些时候会缺乏表达力，这时用公式或者代码可以让学习者更容易理解。
     2.  目标：更精确的表达
     3.  评估：notebook兼具文本和代码，通过联合理解，学生能更快地掌握知识。
-
 
 
 ## 4. 对于开发者
